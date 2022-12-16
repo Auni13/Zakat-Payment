@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textView5"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="55dp"
+                android:layout_marginTop="32dp"
                 android:text="@string/dev_info"
                 android:textSize="12sp" />
 
@@ -122,6 +122,14 @@
                 android:layout_marginRight="16dip"
                 android:text="@string/dev_code"
                 android:textColor="@color/black" />
+            
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView10"
+                android:layout_centerHorizontal="true"
+                android:text="@string/link" />
         </RelativeLayout>
     </LinearLayout>
 </ScrollView>
