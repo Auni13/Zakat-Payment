@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zakat Payment</string>
+    <string name="copyright">Copyright &#169; 2022 Zulaikha Auni</string>
+    <string name="about_text">      Zakat is an Islamic finance term referring to the obligation that an individual has to donate a certain proportion of wealth each year to charitable causes. Zakat is mandatory for all Muslims in most countries and is considered to be a form of worship. Giving away money to the poor is said to purify yearly earnings that are over and above what is required to provide a person and their family with their essential needs.
+
+        This application will allow the user to calculate zakat that need to be paid based on gold that they have</string>
+    <string name="dev_info">Developers List</string>
+    <string name="dev_name">Auni Syafiqah               Nurul Zulaikha </string>
+    <string name="dev_group">  RCS2515A                     RCS2515A    </string>
+    <string name="dev_matricno"> 2020834942                  2020608906   </string>
+    <string name="dev_code">   ICT650                       ICT650</string>
+    <string name="front">WELCOME TO ZAKAT GOLD PAYMENT</string>
+</resources>

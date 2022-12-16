@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B4B83"
+    android:backgroundTint="#340450"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Weight of Gold:"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/Weight"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:ems="10"
+        android:hint="Weight(grams)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textColor="@color/white" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Weight"
+        android:layout_marginTop="16dp"
+        android:text="The Value of Gold:"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/Value"
+        android:layout_width="336dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Value (RM)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:singleLine="false"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnkeep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Value"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="46dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Keep" />
+
+    <Button
+        android:id="@+id/btnwear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Value"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@id/btnkeep"
+        android:backgroundTint="@color/purple_200"
+        android:text="Wear" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Value"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@id/btnwear"
+        android:backgroundTint="@color/purple_200"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/tvoutputvg"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnwear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#BB7CDB"
+        android:backgroundTint="#BB7CDB"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvoutputzp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvoutputvg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#BB7CDB"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvoutputtz"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvoutputzp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:background="#BB7CDB"
+        android:textColor="@color/white" />
+</RelativeLayout>
