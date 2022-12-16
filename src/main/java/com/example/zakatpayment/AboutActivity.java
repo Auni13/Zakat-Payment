@@ -16,7 +16,7 @@ public class AboutActivity extends AppCompatActivity {
     }
     
     private void setupHyperlink(){
-        TextView linkTextView = findViewById(R.id);
+        TextView linkTextView = findViewById(R.id.textView12);
         linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
