@@ -10,4 +10,5 @@
     <string name="dev_matricno"> 2020834942                  2020608906   </string>
     <string name="dev_code">   ICT650                       ICT650</string>
     <string name="front">WELCOME TO ZAKAT GOLD PAYMENT</string>
+    <string name="link"><a href = "https://github.com/Auni13/Zakat-Payment">github.com/Auni13/Zakat-Payment</a></string>
 </resources>
